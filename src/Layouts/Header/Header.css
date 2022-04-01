@@ -1,0 +1,28 @@
+.header-container {
+    background-color: rgb(185, 185, 185);
+    padding: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(24, 2fr);
+  }
+.search{
+    grid-column: 22 / -1;
+    margin: 5px;
+    align-self: center;
+}
+.header-container div{
+    margin: 5px;
+    padding: 2px;
+    align-self: center;
+}
+
+
+.title{
+    grid-column: 11 / span 3;
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    align-self: center;
+    text-align: center;
+}

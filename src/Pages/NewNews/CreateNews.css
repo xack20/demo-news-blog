@@ -1,0 +1,48 @@
+.main-content{
+  display: grid;
+}
+
+
+.news-container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+  margin : 10%;
+  margin-top: 2%;
+  font-size: 25px;
+
+}
+
+.news-input{
+  padding: 10px;
+  font-size: 16px;
+}
+
+.full-width{
+  grid-column: span 2;
+  padding: 10px;
+}
+
+.submit-button{
+  justify-self: center;
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.save-button{
+  grid-column: span 2;
+  justify-self: center;
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.footer{
+  justify-self: center;
+  margin-top: 50px;
+}
+

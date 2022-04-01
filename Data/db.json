@@ -1,0 +1,314 @@
+{
+    "pictures" : {
+        "images": [
+            {
+                "id": "1",
+                "title": "Image 1",
+                "url": "/images/dummy1.jpg",
+                "thumbnailUrl": "/images/dummy1.jpg",
+                "dimentions": {
+                    "width": "507",
+                    "height": "338"
+                }
+            },
+            {
+                "id": "8",
+                "title": "Image 8",
+                "url": "/images/dummy8.jpg",
+                "thumbnailUrl": "/images/dummy8.jpg",
+                "dimentions": {
+                    "width": "800",
+                    "height": "1670"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "7",
+                "title": "Image 7",
+                "url": "/images/dummy7.jpg",
+                "thumbnailUrl": "/images/dummy7.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "376"
+                }
+            },
+            {
+                "id": "6",
+                "title": "Image 6",
+                "url": "/images/dummy6.jpg",
+                "thumbnailUrl": "/images/dummy6.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "372"
+                }
+            },
+            {
+                "id": "2",
+                "title": "Image 2",
+                "url": "/images/dummy2.jpg",
+                "thumbnailUrl": "/images/dummy2.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "667"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "4",
+                "title": "Image 4",
+                "url": "/images/dummy7.jpg",
+                "thumbnailUrl": "/images/dummy7.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "670"
+                }
+            },
+            {
+                "id": "6",
+                "title": "Image 6",
+                "url": "/images/dummy6.jpg",
+                "thumbnailUrl": "/images/dummy6.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "372"
+                }
+            },
+            {
+                "id": "1",
+                "title": "Image 1",
+                "url": "/images/dummy1.jpg",
+                "thumbnailUrl": "/images/dummy1.jpg",
+                "dimentions": {
+                    "width": "507",
+                    "height": "338"
+                }
+            },
+            {
+                "id": "2",
+                "title": "Image 2",
+                "url": "/images/dummy2.jpg",
+                "thumbnailUrl": "/images/dummy2.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "667"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "7",
+                "title": "Image 7",
+                "url": "/images/dummy7.jpg",
+                "thumbnailUrl": "/images/dummy7.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "376"
+                }
+            },
+            {
+                "id": "6",
+                "title": "Image 6",
+                "url": "/images/dummy6.jpg",
+                "thumbnailUrl": "/images/dummy6.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "372"
+                }
+            },
+            {
+                "id": "2",
+                "title": "Image 2",
+                "url": "/images/dummy2.jpg",
+                "thumbnailUrl": "/images/dummy2.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "667"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "4",
+                "title": "Image 4",
+                "url": "/images/dummy4.jpg",
+                "thumbnailUrl": "/images/dummy4.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "670"
+                }
+            },
+            {
+                "id": "6",
+                "title": "Image 6",
+                "url": "/images/dummy6.jpg",
+                "thumbnailUrl": "/images/dummy6.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "372"
+                }
+            },
+            {
+                "id": "1",
+                "title": "Image 1",
+                "url": "/images/dummy1.jpg",
+                "thumbnailUrl": "/images/dummy1.jpg",
+                "dimentions": {
+                    "width": "507",
+                    "height": "338"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "4",
+                "title": "Image 4",
+                "url": "/images/dummy4.jpg",
+                "thumbnailUrl": "/images/dummy4.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "670"
+                }
+            },
+            {
+                "id": "5",
+                "title": "Image 5",
+                "url": "/images/dummy5.jpg",
+                "thumbnailUrl": "/images/dummy5.jpg",
+                "dimentions": {
+                    "width": "499",
+                    "height": "345"
+                }
+            },
+            {
+                "id": "8",
+                "title": "New Link News",
+                "url": "https://www.cnet.com/a/img/resize/07f2f01833416cc22b70171d63a42f5e592b42d1/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg?auto=webp&fit=crop&height=675&width=1200",
+                "thumbnailUrl": "https://www.cnet.com/a/img/resize/07f2f01833416cc22b70171d63a42f5e592b42d1/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg?auto=webp&fit=crop&height=675&width=1200",
+                "dimentions": {
+                    "width": "1200",
+                    "height": "675"
+                }
+            },
+            {
+                "id": "3",
+                "title": "Image 3",
+                "url": "/images/dummy3.jpg",
+                "thumbnailUrl": "/images/dummy3.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "1500"
+                }
+            },
+            {
+                "id": "4",
+                "title": "Image 4",
+                "url": "/images/dummy4.jpg",
+                "thumbnailUrl": "/images/dummy4.jpg",
+                "dimentions": {
+                    "width": "1000",
+                    "height": "670"
+                }
+            },
+            {
+                "id": "5",
+                "title": "Image 5",
+                "url": "/images/dummy5.jpg",
+                "thumbnailUrl": "/images/dummy5.jpg",
+                "dimentions": {
+                    "width": "499",
+                    "height": "345"
+                }
+            }
+        ]
+    },
+    "newsArray" : [
+        {
+            "title" : "News 1",
+            "caption" : "This is news 1",
+            "mainPicture" : "url",
+            "subHeaders" : [
+                {
+                    "header" : "Sub Header 1",
+                    "content" : "This is sub header 1",
+                    "pictures" : [
+                        "url1",
+                        "url2"
+                    ]
+                },
+                {
+                    "header" : "Sub Header 2",
+                    "content" : "This is sub header 2",
+                    "pictures" : [
+                        "url1",
+                        "url2"
+                    ]
+                }
+            ]
+        },
+        {
+            "title" : "News 2",
+            "caption" : "This is news 2",
+            "mainPicture" : "url",
+            "subHeaders" : [
+                {
+                    "header" : "Sub Header 1",
+                    "content" : "This is sub header 1",
+                    "pictures" : [
+                        "url1",
+                        "url2"
+                    ]
+                },
+                {
+                    "header" : "Sub Header 2",
+                    "content" : "This is sub header 2",
+                    "pictures" : [
+                        "url1",
+                        "url2"
+                    ]
+                }
+            ]
+        }
+    ]
+}
