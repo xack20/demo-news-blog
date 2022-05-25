@@ -12,8 +12,8 @@ const Body = (props) => {
         <Route exact path="/" element={<MainContent/>} />
         <Route exact path="/news/:id" element={<DetailedNews />} />
         <Route exact path="/admin/news/new" element={<CreateNews />} />
-        <Route path="*" element={<p>404 page not found</p>} />
-      </Routes>
+        <Route path="/*" element={<p>404 page not found</p>} />
+      </Routes> 
     );
 };
 

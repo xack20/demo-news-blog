@@ -1,4 +1,3 @@
-import { Button } from "@material-ui/core";
 import React from "react";
 import "./Header.css";
 
@@ -7,34 +6,34 @@ const Header = (props) => {
     <div>
       <div className="header-container">
         <div>
-          <Button
+          <button
             style={{
               backgroundColor: "rgb(216, 216, 216)",
               textDecorationStyle: "none",
             }}
           >
             news
-          </Button>
+          </button>
         </div>
         <div>
-          <Button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
+          <button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
             business
-          </Button>
+          </button>
         </div>
         <div>
-          <Button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
+          <button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
             entertainment
-          </Button>
+          </button>
         </div>
         <div>
-          <Button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
+          <button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
             sports
-          </Button>
+          </button>
         </div>
         <div>
-          <Button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
+          <button style={{ backgroundColor: "rgb(216, 216, 216)" }}>
             politics
-          </Button>
+          </button>
         </div>
 
         <div className="title">

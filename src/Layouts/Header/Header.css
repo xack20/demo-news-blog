@@ -1,7 +1,6 @@
 .header-container {
     background-color: rgb(185, 185, 185);
     padding: 10px;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(24, 2fr);
   }

@@ -1,9 +1,13 @@
 import React from "react";
 import { useState } from "react";
+import { addPic, createNews, uploadPic } from "../../Services/NewsHome";
+import reactImageSize from "react-image-size";
 import "./CreateNews.css";
 
 const CreateNews = (props) => {
-  const [data, setData] = useState({ subNews: [] });
+
+  const [data, setData] = useState({ subHeaders: [] , title : "" , caption : "", mainPicture : []});
+
 
   const chanageTitle = (e) => {
     // console.log(e.target.value);
@@ -13,6 +17,7 @@ const CreateNews = (props) => {
     });
   };
 
+
   const chanageCaption = (e) => {
     // console.log(e.target.value);
     setData({
@@ -21,13 +26,27 @@ const CreateNews = (props) => {
     });
   };
 
-  const [subData, setSubData] = useState({});
+
+
+  const changeMainPictureURL = (e) => {
+    // console.log(e.target.files[0].name);
+    // console.log(e.target.value);
+    setData({
+      ...data,
+      mainPicture: [...e.target.files],
+    });
+  };
+
+
+  
+
+  const [subData, setSubData] = useState({pictures : [], header : "",content : ""});
 
   const chanageSubHeader = (e) => {
     // console.log(e.target.value);
     setSubData({
       ...subData,
-      subHeader: e.target.value,
+      header: e.target.value,
     });
   };
 
@@ -35,26 +54,100 @@ const CreateNews = (props) => {
     // console.log(e.target.value);
     setSubData({
       ...subData,
-      detailedNews: e.target.value,
+      content: e.target.value,
     });
   };
 
+  const changeSubPictureURL = async(e) => {
+    // console.log(e.target.files);
+    // console.log(e.target.value);
+    // const {width,height} = await reactImageSize(e.target.files[0]);
+    // console.log(width,height);
+
+    setSubData({
+      ...subData,
+      pictures: [...e.target.files],
+    });
+
+  };
+
+
+
+
+
+
+
   const saveSubNews = () => {
-    if (subData.subHeader && subData.detailedNews) {
+    if (subData.header && subData.content && subData.pictures.length > 0) {
+
       setData({
         ...data,
-        subNews: [...data.subNews, subData],
+        subHeaders: [...data.subHeaders, subData],
       });
-    }
-    else {
+
+      setSubData({
+        header: "",
+        content: "",
+        pictures: null,
+      });     
+
+    } else {
       alert("Please fill all the fields");
     }
   };
 
-  const saveNews = () => {
-    console.log(data);
+  const saveNews = async () => {
+    if (data.title && data.caption && data.mainPicture.length > 0 && data.subHeaders.length > 0) {
 
-    window.location.replace("/");
+      const {width,height} = await reactImageSize(URL.createObjectURL( data.mainPicture[0] ));
+      
+      let formData = new FormData();      
+      formData.append('news-img', data.mainPicture[0]);
+
+      const imgData = { url: "/images/" + data.mainPicture[0].name , dimentions : {width,height} };
+      const res = await addPic(imgData);
+      
+
+      let updateData = {...data};
+
+      for(let sh of data.subHeaders){
+        let pictures = [];
+        for(let pic of sh.pictures){
+          
+          formData.append('news-img', pic);
+
+          const imgData = {
+            url: "/images/" + pic.name,
+            dimentions: { width, height },
+          };
+          const res = await addPic(imgData);
+
+          pictures.push(res.data.id);
+        }
+        updateData.subHeaders[data.subHeaders.indexOf(sh)] = {...sh, pictures}; 
+      }
+
+
+      
+      await uploadPic(formData);
+      
+      alert("News Uploaded Successfully");
+
+
+
+
+      await createNews({
+        ...updateData,
+        mainPicture: res.data.id,
+      });
+
+      // window.location.replace("/");
+
+      // setData({ ...data, title: "", caption: "" });
+    }
+    else {
+      alert("Please fill all the fields");
+    }              
   };
 
   return (
@@ -68,6 +161,7 @@ const CreateNews = (props) => {
           placeholder="Title"
           className="news-input"
           onChange={chanageTitle}
+          value={data.title}
         />
 
         <label htmlFor="img">Select image:</label>
@@ -78,6 +172,7 @@ const CreateNews = (props) => {
           name="img"
           accept="images/*"
           className="news-input"
+          onChange={changeMainPictureURL}
         ></input>
 
         <label className="full-width" style={{ justifySelf: "center" }}>
@@ -91,16 +186,17 @@ const CreateNews = (props) => {
           className="full-width"
           onChange={chanageCaption}
           rows="4"
+          value={data.caption}
         />
       </div>
 
       <div>
-        {data.subNews &&
-          data.subNews.map((subNews, index) => {
+        {data.subHeaders &&
+          data.subHeaders.map((subNews, index) => {
             return (
               <div className="news-container" key={index}>
-                <label className="full-width">{subNews.subHeader}</label>
-                <p className="full-width">{subNews.detailedNews}</p>
+                <label className="full-width">{subNews.header}</label>
+                <p className="full-width">{subNews.content}</p>
               </div>
             );
           })}
@@ -114,6 +210,7 @@ const CreateNews = (props) => {
           placeholder="sub-header"
           className="news-input"
           onChange={chanageSubHeader}
+          value={subData.header}
         />
         <label htmlFor="img">Select images:</label>
         <input
@@ -123,9 +220,7 @@ const CreateNews = (props) => {
           accept="images/*"
           multiple
           className="news-input"
-          onChange={(e) => {
-            console.log(e.target.files);
-          }}
+          onChange={changeSubPictureURL}
         ></input>
         <label className="full-width" style={{ justifySelf: "center" }}>
           <b>Detailed news</b>
@@ -137,6 +232,7 @@ const CreateNews = (props) => {
           className="full-width"
           onChange={chanageDetailedNews}
           rows="10"
+          value={subData.content}
         />
         <button className="save-button" onClick={saveSubNews}>
           Save

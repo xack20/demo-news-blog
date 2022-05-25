@@ -1,49 +1,57 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./MainContent.css";
-import reactImageSize from "react-image-size";
+// import reactImageSize from "react-image-size";
 // import ImageData from "../../Utils/ImageData";
-import { homePage } from "../../Services/NewsHome";
+import { allNews, getPic } from "../../Services/NewsHome";
 
 const MainContent = () => {
-  const [imageData, setImageData] = useState([]);
+  const [NEWS, setNEWS] = useState([]);
+  const navigate = useNavigate();
 
-  function shuffle(array) {
-    let currentIndex = array.length,
-      randomIndex;
+  // function shuffle(array) {
+  //   let currentIndex = array.length,
+  //     randomIndex;
 
-    // While there remain elements to shuffle...
-    while (currentIndex !== 0) {
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
+  //   // While there remain elements to shuffle...
+  //   while (currentIndex !== 0) {
+  //     // Pick a remaining element...
+  //     randomIndex = Math.floor(Math.random() * currentIndex);
+  //     currentIndex--;
 
-      // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
-      ];
-    }
+  //     // And swap it with the current element.
+  //     [array[currentIndex], array[randomIndex]] = [
+  //       array[randomIndex],
+  //       array[currentIndex],
+  //     ];
+  //   }
 
-    return array;
-  }
+  //   return array;
+  // }
+
+  
+
+
 
   useEffect(() => {
-    // setImageData(ImageData["images"]);
-      const getHomePage = async () => {
-        const {data} = await homePage();
-        // console.log(data);
-        shuffle(data["images"]);
-        setImageData(data["images"]);
-      };
-      getHomePage();
-    
-    
-  }, []);
+    const getHomePage = async () => {
+      const { data } = await allNews();
 
-  const imageDetail = async (imgUrl) => {
+      for (let element of data) {
+        const res = await getPic(element.mainPicture);
+        setNEWS((N) => [
+          ...N,
+          { caption: element.caption, title: element.title,id : element.id , url : res.data.url, dimentions : res.data.dimentions },
+        ]);
+      }
+    };
+      getHomePage();
+  },[]);
+
+  const imageDetail = async (id) => {
     try {
-      const { width, height } = await reactImageSize(imgUrl);
-      alert(`width: ${width}, height: ${height}`);
+      // const { width, height } = await reactImageSize(imageData[index]["url"]);
+      navigate(`/news/${id}`);
       // console.log(width, height);
     } catch {}
   };
@@ -51,7 +59,8 @@ const MainContent = () => {
   return (
     <div>
       <div className="container">
-        {imageData.map((item, index) => {
+        {/* {console.log(NEWS)} */}
+        {NEWS.length ? NEWS.map((item, index) => {
           return (
             <div
               style={
@@ -79,7 +88,7 @@ const MainContent = () => {
                 key={index}
                 src={item["url"]}
                 onClick={() => {
-                  imageDetail(item["url"]);
+                  imageDetail(item.id);
                 }}
                 alt="dummy"
                 style={{
@@ -89,18 +98,11 @@ const MainContent = () => {
               <h2>{`News Title ${item.id}`}</h2>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                minus hic! Nisi ullam sint quam! Aspernatur accusantium itaque
-                ab tempore minus placeat fugit quam quo similique perferendis.
-                Beatae porro omnis quaerat culpa vero autem qui illum similique
-                sunt unde. Eos.Aspernatur accusantium itaque
-                ab tempore minus placeat fugit quam quo similique perferendis.
-                Beatae porro omnis quaerat culpa vero autem qui illum similique
-                sunt unde. Eos.
+                {item.caption}
               </p>
             </div>
           );
-        })}
+        }) : <h1 style={{textAlign : "center", marginTop : "20%"}}>No News To Load</h1>}
       </div>
     </div>
   );

@@ -1,314 +1,181 @@
 {
-    "pictures" : {
-        "images": [
-            {
-                "id": "1",
-                "title": "Image 1",
-                "url": "/images/dummy1.jpg",
-                "thumbnailUrl": "/images/dummy1.jpg",
-                "dimentions": {
-                    "width": "507",
-                    "height": "338"
-                }
-            },
-            {
-                "id": "8",
-                "title": "Image 8",
-                "url": "/images/dummy8.jpg",
-                "thumbnailUrl": "/images/dummy8.jpg",
-                "dimentions": {
-                    "width": "800",
-                    "height": "1670"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "7",
-                "title": "Image 7",
-                "url": "/images/dummy7.jpg",
-                "thumbnailUrl": "/images/dummy7.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "376"
-                }
-            },
-            {
-                "id": "6",
-                "title": "Image 6",
-                "url": "/images/dummy6.jpg",
-                "thumbnailUrl": "/images/dummy6.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "372"
-                }
-            },
-            {
-                "id": "2",
-                "title": "Image 2",
-                "url": "/images/dummy2.jpg",
-                "thumbnailUrl": "/images/dummy2.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "667"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "4",
-                "title": "Image 4",
-                "url": "/images/dummy7.jpg",
-                "thumbnailUrl": "/images/dummy7.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "670"
-                }
-            },
-            {
-                "id": "6",
-                "title": "Image 6",
-                "url": "/images/dummy6.jpg",
-                "thumbnailUrl": "/images/dummy6.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "372"
-                }
-            },
-            {
-                "id": "1",
-                "title": "Image 1",
-                "url": "/images/dummy1.jpg",
-                "thumbnailUrl": "/images/dummy1.jpg",
-                "dimentions": {
-                    "width": "507",
-                    "height": "338"
-                }
-            },
-            {
-                "id": "2",
-                "title": "Image 2",
-                "url": "/images/dummy2.jpg",
-                "thumbnailUrl": "/images/dummy2.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "667"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "7",
-                "title": "Image 7",
-                "url": "/images/dummy7.jpg",
-                "thumbnailUrl": "/images/dummy7.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "376"
-                }
-            },
-            {
-                "id": "6",
-                "title": "Image 6",
-                "url": "/images/dummy6.jpg",
-                "thumbnailUrl": "/images/dummy6.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "372"
-                }
-            },
-            {
-                "id": "2",
-                "title": "Image 2",
-                "url": "/images/dummy2.jpg",
-                "thumbnailUrl": "/images/dummy2.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "667"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "4",
-                "title": "Image 4",
-                "url": "/images/dummy4.jpg",
-                "thumbnailUrl": "/images/dummy4.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "670"
-                }
-            },
-            {
-                "id": "6",
-                "title": "Image 6",
-                "url": "/images/dummy6.jpg",
-                "thumbnailUrl": "/images/dummy6.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "372"
-                }
-            },
-            {
-                "id": "1",
-                "title": "Image 1",
-                "url": "/images/dummy1.jpg",
-                "thumbnailUrl": "/images/dummy1.jpg",
-                "dimentions": {
-                    "width": "507",
-                    "height": "338"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "4",
-                "title": "Image 4",
-                "url": "/images/dummy4.jpg",
-                "thumbnailUrl": "/images/dummy4.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "670"
-                }
-            },
-            {
-                "id": "5",
-                "title": "Image 5",
-                "url": "/images/dummy5.jpg",
-                "thumbnailUrl": "/images/dummy5.jpg",
-                "dimentions": {
-                    "width": "499",
-                    "height": "345"
-                }
-            },
-            {
-                "id": "8",
-                "title": "New Link News",
-                "url": "https://www.cnet.com/a/img/resize/07f2f01833416cc22b70171d63a42f5e592b42d1/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg?auto=webp&fit=crop&height=675&width=1200",
-                "thumbnailUrl": "https://www.cnet.com/a/img/resize/07f2f01833416cc22b70171d63a42f5e592b42d1/2019/10/09/c4f49e5f-459e-4c9f-bfc9-9e4e9d6256d5/nikon-z50-10.jpg?auto=webp&fit=crop&height=675&width=1200",
-                "dimentions": {
-                    "width": "1200",
-                    "height": "675"
-                }
-            },
-            {
-                "id": "3",
-                "title": "Image 3",
-                "url": "/images/dummy3.jpg",
-                "thumbnailUrl": "/images/dummy3.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "1500"
-                }
-            },
-            {
-                "id": "4",
-                "title": "Image 4",
-                "url": "/images/dummy4.jpg",
-                "thumbnailUrl": "/images/dummy4.jpg",
-                "dimentions": {
-                    "width": "1000",
-                    "height": "670"
-                }
-            },
-            {
-                "id": "5",
-                "title": "Image 5",
-                "url": "/images/dummy5.jpg",
-                "thumbnailUrl": "/images/dummy5.jpg",
-                "dimentions": {
-                    "width": "499",
-                    "height": "345"
-                }
-            }
-        ]
+  "pictures": [
+    {
+      "url": "/images/dummy1.jpg",
+      "dimentions": {
+        "width": 507,
+        "height": 338
+      },
+      "id": 1
     },
-    "newsArray" : [
+    {
+      "url": "/images/dummy2.jpg",
+      "dimentions": {
+        "width": 507,
+        "height": 338
+      },
+      "id": 2
+    },
+    {
+      "url": "/images/dummy2.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 667
+      },
+      "id": 3
+    },
+    {
+      "url": "/images/dummy1.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 667
+      },
+      "id": 4
+    },
+    {
+      "url": "/images/dummy8.jpg",
+      "dimentions": {
+        "width": 800,
+        "height": 1670
+      },
+      "id": 5
+    },
+    {
+      "url": "/images/dummy1.jpg",
+      "dimentions": {
+        "width": 800,
+        "height": 1670
+      },
+      "id": 6
+    },
+    {
+      "url": "/images/dummy7.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 7
+    },
+    {
+      "url": "/images/dummy4.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 8
+    },
+    {
+      "url": "/images/dummy5.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 9
+    },
+    {
+      "url": "/images/dummy3.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 10
+    },
+    {
+      "url": "/images/dummy4.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 11
+    },
+    {
+      "url": "/images/dummy5.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 12
+    },
+    {
+      "url": "/images/dummy6.jpg",
+      "dimentions": {
+        "width": 1000,
+        "height": 376
+      },
+      "id": 13
+    }
+  ],
+  "newsArray": [
+    {
+      "subHeaders": [
         {
-            "title" : "News 1",
-            "caption" : "This is news 1",
-            "mainPicture" : "url",
-            "subHeaders" : [
-                {
-                    "header" : "Sub Header 1",
-                    "content" : "This is sub header 1",
-                    "pictures" : [
-                        "url1",
-                        "url2"
-                    ]
-                },
-                {
-                    "header" : "Sub Header 2",
-                    "content" : "This is sub header 2",
-                    "pictures" : [
-                        "url1",
-                        "url2"
-                    ]
-                }
-            ]
+          "pictures": [
+            2
+          ],
+          "header": "Header 1",
+          "content": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor."
+        }
+      ],
+      "title": "Title 1",
+      "caption": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor.",
+      "mainPicture": 1,
+      "id": 1
+    },
+    {
+      "subHeaders": [
+        {
+          "pictures": [
+            4
+          ],
+          "header": "Header 1",
+          "content": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor."
+        }
+      ],
+      "title": "Title1",
+      "caption": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor.",
+      "mainPicture": 3,
+      "id": 2
+    },
+    {
+      "subHeaders": [
+        {
+          "pictures": [
+            6
+          ],
+          "header": "header 1",
+          "content": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor."
+        }
+      ],
+      "title": "Title 3",
+      "caption": "Etiam interdum nulla risus, volutpat consectetur eros tincidunt id. Sed nec massa nisl. Maecenas blandit mollis massa sit amet consectetur. Etiam pharetra dui vitae elit ultrices efficitur. Suspendisse eget enim vitae ipsum pharetra congue. Fusce fringilla, sem sed fringilla vehicula, tortor purus molestie enim, nec lobortis mi libero a eros. Cras porta risus ut metus malesuada, quis tincidunt nulla cursus. Etiam sodales, lectus at hendrerit gravida, turpis ex ultrices ante, egestas vehicula dui ligula pharetra eros. Quisque ornare blandit dolor ut interdum. Mauris eros ante, semper nec vestibulum id, ultrices id dolor.",
+      "mainPicture": 5,
+      "id": 3
+    },
+    {
+      "subHeaders": [
+        {
+          "pictures": [
+            8,
+            9
+          ],
+          "header": "Header 2",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at porta nibh, eu molestie arcu. Aenean ac ante posuere, tempor tellus eget, varius risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse rutrum lobortis est a finibus. Pellentesque eu efficitur dui. Donec et consectetur urna. Vivamus interdum magna mauris, in elementum justo euismod eu.\n\nProin ut turpis porttitor, pretium sapien ut, porta dui. Aenean a metus vitae dui molestie vehicula sed sed ipsum. Quisque malesuada auctor ante, ac feugiat metus efficitur quis. Vivamus aliquam lacus at lacus convallis bibendum. Integer a urna eget odio pulvinar accumsan. Nulla facilisi. Etiam quis elit sodales, porttitor dolor imperdiet, accumsan turpis. Morbi tempor consequat turpis quis pellentesque. Nullam mattis in sapien sit amet accumsan. Fusce a urna velit.\n\nIn vitae diam vitae velit feugiat malesuada non quis ligula. Quisque nisl purus, aliquet vitae tempus at, ultricies vitae lorem. Ut laoreet ante eu turpis gravida, ut mollis lorem congue. Nam semper quam nisi, ut tincidunt lorem rhoncus sed. Vivamus eget dictum tellus, nec convallis massa. Fusce tristique felis in ultricies pellentesque. Donec ac metus at eros fringilla consectetur vehicula id nunc. Duis felis enim, ornare in nisi et, sollicitudin vestibulum mi. Praesent enim mauris, molestie nec leo nec, ullamcorper tempor enim. Nam at dolor eget tellus mollis commodo.\n\nMauris rutrum iaculis placerat. Quisque ornare eget dui ut malesuada. Sed elit tortor, sodales in aliquam sed, vulputate et nisl. Curabitur venenatis nisi ut diam ornare ultricies. Suspendisse ornare dui quis gravida sollicitudin. Etiam ut volutpat nisl, eu bibendum massa. Mauris tincidunt faucibus diam ac gravida. Morbi sagittis bibendum enim eu venenatis. Nulla ac tellus at nulla ornare rhoncus vel a nisi. Aenean egestas nunc id egestas rutrum.\n\nVestibulum volutpat, velit ut tempor iaculis, mauris massa mattis libero, in dictum felis ante in erat. Nunc volutpat porttitor ipsum, at volutpat leo suscipit at. Ut venenatis urna quis nisi luctus lacinia. Mauris nec ligula a orci mattis posuere. Nulla ut auctor nulla. Mauris vel dui accumsan, tincidunt augue sit amet, semper nibh. Cras ut nulla eget ipsum vehicula luctus id in tellus. Aliquam erat volutpat. Mauris odio augue, ullamcorper vitae rhoncus a, tincidunt ac dolor."
         },
         {
-            "title" : "News 2",
-            "caption" : "This is news 2",
-            "mainPicture" : "url",
-            "subHeaders" : [
-                {
-                    "header" : "Sub Header 1",
-                    "content" : "This is sub header 1",
-                    "pictures" : [
-                        "url1",
-                        "url2"
-                    ]
-                },
-                {
-                    "header" : "Sub Header 2",
-                    "content" : "This is sub header 2",
-                    "pictures" : [
-                        "url1",
-                        "url2"
-                    ]
-                }
-            ]
+          "header": "Header 5",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at porta nibh, eu molestie arcu. Aenean ac ante posuere, tempor tellus eget, varius risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse rutrum lobortis est a finibus. Pellentesque eu efficitur dui. Donec et consectetur urna. Vivamus interdum magna mauris, in elementum justo euismod eu.\n\nProin ut turpis porttitor, pretium sapien ut, porta dui. Aenean a metus vitae dui molestie vehicula sed sed ipsum. Quisque malesuada auctor ante, ac feugiat metus efficitur quis. Vivamus aliquam lacus at lacus convallis bibendum. Integer a urna eget odio pulvinar accumsan. Nulla facilisi. Etiam quis elit sodales, porttitor dolor imperdiet, accumsan turpis. Morbi tempor consequat turpis quis pellentesque. Nullam mattis in sapien sit amet accumsan. Fusce a urna velit.\n\nIn vitae diam vitae velit feugiat malesuada non quis ligula. Quisque nisl purus, aliquet vitae tempus at, ultricies vitae lorem. Ut laoreet ante eu turpis gravida, ut mollis lorem congue. Nam semper quam nisi, ut tincidunt lorem rhoncus sed. Vivamus eget dictum tellus, nec convallis massa. Fusce tristique felis in ultricies pellentesque. Donec ac metus at eros fringilla consectetur vehicula id nunc. Duis felis enim, ornare in nisi et, sollicitudin vestibulum mi. Praesent enim mauris, molestie nec leo nec, ullamcorper tempor enim. Nam at dolor eget tellus mollis commodo.\n\nMauris rutrum iaculis placerat. Quisque ornare eget dui ut malesuada. Sed elit tortor, sodales in aliquam sed, vulputate et nisl. Curabitur venenatis nisi ut diam ornare ultricies. Suspendisse ornare dui quis gravida sollicitudin. Etiam ut volutpat nisl, eu bibendum massa. Mauris tincidunt faucibus diam ac gravida. Morbi sagittis bibendum enim eu venenatis. Nulla ac tellus at nulla ornare rhoncus vel a nisi. Aenean egestas nunc id egestas rutrum.\n\nVestibulum volutpat, velit ut tempor iaculis, mauris massa mattis libero, in dictum felis ante in erat. Nunc volutpat porttitor ipsum, at volutpat leo suscipit at. Ut venenatis urna quis nisi luctus lacinia. Mauris nec ligula a orci mattis posuere. Nulla ut auctor nulla. Mauris vel dui accumsan, tincidunt augue sit amet, semper nibh. Cras ut nulla eget ipsum vehicula luctus id in tellus. Aliquam erat volutpat. Mauris odio augue, ullamcorper vitae rhoncus a, tincidunt ac dolor.",
+          "pictures": [
+            10,
+            11,
+            12,
+            13
+          ]
         }
-    ]
+      ],
+      "title": "Titile 4",
+      "caption": "sa da asda da sda dsas fffffffffffffffffffff  a a aa ",
+      "mainPicture": 7,
+      "id": 4
+    }
+  ]
 }
